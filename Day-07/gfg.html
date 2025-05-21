@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table colspan and rowspan</title>
+</head>
+
+<body>
+    <h1>
+        HTML Table colspan and rowspan
+    </h1><hr>
+    <p>
+        In HTML, the rowspan attribute specifies how many rows a table cell should span, determining its vertical position. On the other hand, the colspan attribute specifies the number of columns a cell should span, determining its horizontal position. Defining together, they provide a powerful mechanism for cells to cover multiple rows and columns, offering flexibility in structuring complex tables.
+    </p>
+    <h3>Table of Content</h3>
+    <ul>
+        <li>HTML Table with Colspan</li>
+        <li>HTMl Table with Rowspan</li>
+    </ul>
+    <h2>
+        HTML Table with Colspan
+    </h2>
+    <p>
+        HTML Table with Colspan allows you to merge or combine adjacent table cells horizontally, creating a single, wider cell that spans across multiple columns.
+    </p>
+    <p>
+        <b>Note : </b> The colspan is defined as the &lt;th> element.
+    </p>
+    <table border="1">
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Class</th>
+        </tr>
+        <tr>
+            <td>Kalyan</td>
+            <td>Akula</td>
+            <td>38R</td>
+        </tr>
+        <tr>
+            <td>Ashok</td>
+            <td>Avula</td>
+            <td>38R</td>
+        </tr>
+        <tr>
+            <td>Rachana</td>
+            <td>Illendula</td>
+            <td>38R</td>
+        </tr>
+    </table>
+    <h2>
+        HTML Table with Rowspan
+    </h2>
+    <p>
+        The HTML attribute rowspan determines how many rows a specific cell in a table should cover. When a cell spans multiple rows, it occupies the space of those rows within the table.
+    </p>
+    <p>
+        <b>Note: </b>Applied within a &lt;td&gt; or &lt;th&gt; element.
+    </p>
+    <table border="1">
+        <tr>
+            <th rowspan="2">Name</th>
+            <td>Kalyan</td>
+            <td>Ashok</td>
+            <td>Rachana</td>
+        </tr>
+        <tr>
+            <td>Akula</td>
+            <td>Avula</td>
+            <td>Illendula</td>
+        </tr>
+        <tr>
+            <th>Class</th>
+            <td>38r</td>
+            <td>38r</td>
+            <td>38r</td>
+        </tr>
+    </table>
+</body>
+
+</html>
